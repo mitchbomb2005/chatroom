@@ -11,7 +11,9 @@ $link = mysqli_connect('localhost', 'IMuser', 'IMuser', 'im');
 if (!$link)
 {   die('Could not connect" ' . mysqli_error()); }
 else
-{ echo 'were good';}
+{
+    echo 'were good'.$row['0'].'</br>';
+}
 
 
 
