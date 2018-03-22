@@ -7,7 +7,7 @@
 // this is where the messages from the server will go!
 
 //connect to db
-$link = mysqli_connect('localhost', 'IMuser', 'IMuser', 'im');
+$link = mysqli_connect();
 if (!$link)
 {   die('Could not connect" ' . mysqli_error()); }
 else
